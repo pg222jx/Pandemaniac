@@ -1,4 +1,4 @@
-# 1dv430
+# Pandemaniac
 
 The goal for this project is to create a simplified, one player game with inspiration from the board game Pandemic for the web.
 
