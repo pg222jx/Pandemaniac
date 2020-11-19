@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the TurnCard component should match the snapshot 1`] = `"<div class=\\"turnCard\\"><div class=\\"TurnsDone\\"><h4>Turns done:</h4><p>0</p><hr/></div><div class=\\"timerContainer\\"><h4>Time spent:</h4><p data-testid=\\"TimeSpent-test\\" class=\\"TimeSpent\\">0:0</p><hr/></div><div class=\\"turnContainer\\"><h4 class=\\"ActionsLeft\\">Actions left: 2</h4><hr/><h4>What&#x27;s your next move?</h4><button data-testid=\\"value\\" class=\\"Turn\\" id=\\"move\\">Move one step</button><button class=\\"Turn\\">Build a science centre</button><button class=\\"Turn\\" id=\\"remove\\">Remove virus</button><button class=\\"Turn\\" id=\\"done\\">Done with turn!</button></div></div>"`;

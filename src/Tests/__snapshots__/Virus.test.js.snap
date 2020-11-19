@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the Virus component should match the snapshot 1`] = `"<img src=\\"virus.png\\" alt=\\"Virus\\" class=\\"virus\\" virusid=\\"NA 1\\"/>"`;

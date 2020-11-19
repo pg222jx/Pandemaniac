@@ -1,0 +1,437 @@
+
+.App {
+  text-align: center;
+}
+
+.pandemaniacTitle {
+  font-family: Apocalypse;
+  font-size: 3em;
+}
+
+.navbar {
+  background-color: #AFC1CC;
+  margin: 0;
+  margin-bottom: 40px;
+  height: auto;
+  width: 100%;
+  float: left;
+}
+
+.navLinks {
+  font-size: 16px;
+  border: none;
+  background-color: #AFC1CC;
+  float: left;
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+  padding: 7px;
+  margin-left: 100px;
+}
+
+.navLinks:hover {
+  color: #F37257;
+}
+
+.dropDown {
+  z-index: 5;
+  color: black;
+  background-color: #AFC1CC;
+  height: auto;
+  width: auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.turnCard {
+  font-size: 14px;
+  position: absolute;
+  bottom: -70px;
+  left: -220px;
+  margin: 0px;
+  background-color: #7895A2;
+  border-radius: 5px;
+  padding: 23px;
+}
+
+.turnContainer button{
+  display: block;
+  border-style: none;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #F4D27A;
+  border-radius: 5px;
+}
+
+.turnContainer button:hover{
+  background-color: rgb(243, 200, 93);
+}
+
+.turnContainer #move{
+  padding-left: 24px;
+  padding-right: 26px;
+}
+
+.turnContainer #remove{
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+.gameContainer {
+  display: inline;
+  position: relative;
+}
+
+.player {
+  position: absolute;
+  z-index: 3;
+  bottom: 300px;
+  left: 1040px;
+}
+
+.virus {
+  position: absolute;
+  bottom: 250px;
+  left: 1033px;
+}
+
+.startButton button {
+  position: absolute;
+  top: -450px;
+  left: 160px;
+  border: none;
+  background-color: #F4D27A;
+  border-radius: 5px;
+  padding: 150px;
+  font-size: 80px;
+}
+
+.startButton button:hover {
+  background-color: rgb(243, 200, 93);
+}
+
+.gameOverContainer {
+  position: absolute;
+  top: -500px;
+  left: 200px;
+  z-index: 4;
+}
+
+.gameOver {
+  border: none;
+  background-color: #F4D27A;
+  border-radius: 5px;
+  padding: 200px;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  font-size: medium;
+  height: auto;
+}
+
+.gameOver h3 {
+  font-size: xx-large;
+}
+
+.playerWonContainer {
+  position: absolute;
+  top: -450px;
+  left: 180px;
+  z-index: 4;
+}
+
+.playerWon {
+  border: none;
+  background-color: #F4D27A;
+  border-radius: 5px;
+  padding: 100px;
+  font-size: 80px;
+  height: auto;
+}
+
+.gameOver p {
+  margin: 0px;
+}
+
+.tryAgain {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #AFC1CC;
+}
+
+.tryAgain:hover {
+  background-color: #7895A2;
+}
+
+.station {
+  position: absolute;
+  left: 45%;
+}
+
+.highscore_list {
+  margin-right: 100px;
+}
+
+.highscore_list p {
+  margin: 0px;
+  font-size: small;
+}
+
+.highscore_list h4 {
+  margin: 0px;
+}
+
+.playerWon {
+  font-size: medium;
+}
+
+.highscore_form_container {
+  font-size: small;
+}
+
+.stationInformation {
+  font-size: small;
+  margin-top: 0px;
+}
+
+.informationContainer {
+  position: absolute;
+  left: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #AFC1CC;
+  width: 350px;
+}
+
+.submit {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #F37257;
+}
+
+.submit:hover {
+  background-color: rgb(211, 99, 77);
+}
+
+.enterNickname {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Media querys */
+
+@media only screen and (max-width: 1464px) {
+  .gameContainer {
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  .gameContainer {
+    left: 100px;
+  }
+}
+/* 
+@media only screen and (max-width: 1024px) {
+  .Game {
+    transform: scale(0.9);
+    transform-origin: 0 0;
+  }
+
+  .turnCard {
+    font-size: 12px;
+    bottom: -20px;
+    left: -80px;
+    padding: 10px;
+  }
+
+  .timerContainer {
+    display: none;
+  }
+
+  
+  .navbar {
+    background-color: white;
+  }
+
+  
+  .navLinks {
+    font-size: 16px;
+    background-color: white;
+  }
+
+  
+  .dropDown {
+    background-color: white;
+  }
+
+  .pandemaniacTitle {
+    margin-left: 20%;
+  }
+
+  .informationContainer {
+    display: none;
+  }
+} */
+
+/* @media only screen and (max-width: 1000px) {
+  .pandemaniacTitle {
+    margin-left: 55%;
+  }
+
+  .Game {
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+
+  .gameContainer {
+    left: 95px;
+  }
+
+  .dropDown {
+    margin-top: 10px;
+  }
+} */
+
+@media only screen and (max-width: 1200px) {
+  .pandemaniacTitle {
+    margin-left: 18%;
+  }
+
+  .Game {
+    transform: scale(0.87);
+    transform-origin: 0 0;
+  }
+
+  .gameContainer {
+    left: 95px;
+  }
+
+  .dropDown {
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  #dropRuless {
+    margin-left: 5px;
+  }
+
+  #dropControls {
+  margin-left: 25px;
+  }
+
+  #dropScores {
+    margin-left: 30px;
+  }
+
+  .turnCard {
+    font-size: 12px;
+    bottom: -20px;
+    left: -80px;
+    padding: 5px;
+  }
+
+  .turnCard button {
+    font-size: 14px;
+  }
+
+  .timerContainer {
+    display: none;
+  }
+
+  .navbar {
+    background-color: white;
+  }
+
+  .navLinks {
+    font-size: 20px;
+    background-color: white;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .pandemaniacTitle {
+    margin-left: 22%;
+  }
+
+  .Game {
+    transform: scale(0.85);
+    transform-origin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 796px) {
+  .pandemaniacTitle {
+    margin: 2px;
+    margin-left: 63%;
+    font-size: 2em;
+  }
+
+  .Game {
+    transform: scale(0.57);
+    transform-origin: 0 0;
+  }
+
+  .gameContainer {
+    left: 165px;
+  }
+
+  #dropRuless {
+    margin-left: 5px;
+  }
+
+  #dropControls {
+  margin-left: 25px;
+  }
+
+  #dropScores {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pandemaniacTitle {
+    margin-left: 58%;
+  }
+
+  .Game {
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+
+  .gameContainer {
+    left: 110px;
+  }
+
+  .dropDown {
+    margin-top: 15px;
+  }
+
+  #dropControls {
+  margin-left: 45px;
+  }
+
+  #dropScores {
+    margin-left: 100px;
+  }
+
+  .turnCard {
+    padding: 3px;
+    padding-top: 0px;
+  }
+
+  .turnCard button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+

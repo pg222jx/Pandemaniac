@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the Map component should match the snapshot 1`] = `"<img src=\\"map.png\\" alt=\\"World map\\" class=\\"worldMap\\" useMap=\\"#mapImage\\"/><map name=\\"mapImage\\"><area href=\\"#\\" alt=\\"North America\\" shape=\\"rect\\" coords=\\"20,20, 400,240\\"/><area href=\\"#\\" alt=\\"South America\\" shape=\\"rect\\" coords=\\"155,255, 350,520\\"/><area href=\\"#\\" alt=\\"Europe\\" shape=\\"rect\\" coords=\\"435,20, 630,140\\"/><area href=\\"#\\" alt=\\"Asia\\" shape=\\"rect\\" coords=\\"640,20, 950,200\\"/><area href=\\"#\\" alt=\\"Africa\\" shape=\\"rect\\" coords=\\"435,170, 580,450\\"/><area href=\\"#\\" alt=\\"Australia\\" shape=\\"rect\\" coords=\\"800,300, 1100,480\\"/></map>"`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the GameOver component should match the snapshot 1`] = `"<div class=\\"gameOver\\"><h3 id=\\"gameOvertext\\">Game Over!</h3><p data-testid=\\"information_test\\">A fourth virus spawned in !</p><br/><button class=\\"tryAgain\\">Try again?</button></div>"`;

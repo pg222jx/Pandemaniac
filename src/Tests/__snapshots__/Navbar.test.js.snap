@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the navbar component should match the snapshot 1`] = `"<div class=\\"navbar\\"><div class=\\"dropdown\\"><button aria-haspopup=\\"true\\" aria-expanded=\\"false\\" id=\\"rules\\" type=\\"button\\" class=\\"navLinks dropdown-toggle btn btn-primary\\">Rules</button></div><div class=\\"dropdown\\"><button aria-haspopup=\\"true\\" aria-expanded=\\"false\\" id=\\"controls\\" type=\\"button\\" class=\\"navLinks dropdown-toggle btn btn-primary\\">Controls</button></div><div class=\\"dropdown\\"><button aria-haspopup=\\"true\\" aria-expanded=\\"false\\" id=\\"highscore_title\\" type=\\"button\\" class=\\"navLinks dropdown-toggle btn btn-primary\\">Highscore</button></div></div>"`;
